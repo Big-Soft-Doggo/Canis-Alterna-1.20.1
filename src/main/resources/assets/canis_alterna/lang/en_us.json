@@ -4,5 +4,21 @@
   "item.canis_alterna.dough": "Dough",
   "item.canis_alterna.fey_dew": "Fey Dew",
   "item.canis_alterna.candy_bar": "Chocolate Bar",
+  "item.canis_alterna.sapphire_sword": "Sapphire Sword",
+  "item.canis_alterna.enchanted_dough": "Enchanted Dough",
+  "item.canis_alterna.sapphire_crown": "Sapphire Diadem",
+  "item.canis_alterna.sapphire_greaves": "Sapphire Greaves",
+  "item.canis_alterna.sapphire_plate": "Sapphire Plate",
+  "item.canis_alterna.mortar_and_pestle": "Mortar and Pestle",
+  "item.canis_alterna.metal_detector": "Metallurgical Locator",
+
+  "block.canis_alterna.sapphire_block": "Block of Sapphire",
+  "block.canis_alterna.raw_sapphire_block": "Block of Raw Sapphire",
+
+  "block.canis_alterna.sapphire_ore": "Sapphire Ore",
+  "block.canis_alterna.deepslate_sapphire_ore": "Deepslate Sapphire Ore",
+  "block.canis_alterna.nether_sapphire_ore": "Nether Sapphire Ore",
+  "block.canis_alterna.end_stone_sapphire_ore": "Endstone Sapphire Ore",
+
   "creativetab.canis_tab": "Canis Alterna"
 }

@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "canis_alterna:sapphire_block"
+    }
+  ],
+  "result": {
+    "item":"canis_alterna:sapphire",
+    "count": 9
+  }
+}

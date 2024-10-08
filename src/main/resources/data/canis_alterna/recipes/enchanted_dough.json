@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "canis_alterna:fey_dew"
+    },
+    {
+      "item": "canis_alterna:dough"
+    }
+  ],
+  "result": {
+    "item": "canis_alterna:enchanted_dough"
+  }
+}

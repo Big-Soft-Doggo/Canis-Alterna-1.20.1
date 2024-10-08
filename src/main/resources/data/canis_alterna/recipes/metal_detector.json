@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    " G#",
+    " SG",
+    "S  "
+  ],
+  "key": {
+    "#": {
+      "item": "canis_alterna:sapphire"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    },
+    "G": {
+      "item": "minecraft:gold_ingot"
+    }
+  },
+  "result": {
+    "item": "canis_alterna:metal_detector"
+  }
+}

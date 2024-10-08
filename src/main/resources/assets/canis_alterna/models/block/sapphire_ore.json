@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "canis_alterna:block/sapphire_ore"
+  }
+}

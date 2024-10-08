@@ -3,11 +3,14 @@ package net.nyx_whitefox.canisalterna.item;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.CreativeModeTab;
+import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.level.block.Block;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.RegistryObject;
 import net.nyx_whitefox.canisalterna.CanisAlterna;
+import net.nyx_whitefox.canisalterna.block.ModBlocks;
 
 public class ModCreativeModTabs {
     public static final DeferredRegister<CreativeModeTab> CREATIVE_MODE_TABS =
@@ -17,11 +20,14 @@ public class ModCreativeModTabs {
     () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.FEY_DEW.get()))
             .title(Component.translatable("creativetab.canis_tab"))
             .displayItems((pParameters, pOutput) -> {
-                pOutput.accept(ModItems.SAPPHIRE.get());
-                pOutput.accept(ModItems.FEY_DEW.get());
-                pOutput.accept(ModItems.CANDY_BAR.get());
-                pOutput.accept(ModItems.RAW_SAPPHIRE.get());
-                pOutput.accept(ModItems.DOUGH.get());
+                for(RegistryObject<Item> item:
+                ModItems.ITEMS.getEntries()){
+                    pOutput.accept(item.get());
+                }
+                for(RegistryObject<Block> block:
+                        ModBlocks.BLOCKS.getEntries()){
+                    pOutput.accept(block.get());
+                }
             })
             .build());
 

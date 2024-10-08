@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "canis_alterna:raw_sapphire"
+    }
+  },
+  "result": {
+    "item": "canis_alterna:raw_sapphire_block"
+  }
+}
