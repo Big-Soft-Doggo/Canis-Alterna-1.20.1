@@ -29,6 +29,14 @@
   "block.canis_alterna.deepslate_sapphire_ore": "Deepslate Sapphire Ore",
   "block.canis_alterna.nether_sapphire_ore": "Nether Sapphire Ore",
   "block.canis_alterna.end_stone_sapphire_ore": "Endstone Sapphire Ore",
+  "block.canis_alterna.sapphire_slab": "Sapphire Slab",
+  "block.canis_alterna.sapphire_button": "Sapphire Button",
+  "block.canis_alterna.sapphire_pressure_plate": "Sapphire Pressure Plate",
+  "block.canis_alterna.sapphire_fence": "Sapphire Fence",
+  "block.canis_alterna.sapphire_fence_gate": "Sapphire Fence Gate",
+  "block.canis_alterna.sapphire_wall": "Sapphire Wall",
+  "block.canis_alterna.sapphire_door": "Sapphire Door",
+  "block.canis_alterna.sapphire_trapdoor": "Sapphire Trapdoor",
 
   "creativetab.canis_tab": "Canis Alterna"
 }
