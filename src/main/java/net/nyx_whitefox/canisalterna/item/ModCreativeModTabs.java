@@ -17,7 +17,7 @@ public class ModCreativeModTabs {
             DeferredRegister.create(Registries.CREATIVE_MODE_TAB, CanisAlterna.MOD_ID);
 
     public static final RegistryObject<CreativeModeTab> CANIS_TAB = CREATIVE_MODE_TABS.register("canis_tab",
-    () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.FEY_DEW.get()))
+    () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.BLOOM_ESSENCE.get()))
             .title(Component.translatable("creativetab.canis_tab"))
             .displayItems((pParameters, pOutput) -> {
                 for(RegistryObject<Item> item:
